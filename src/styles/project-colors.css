@@ -69,10 +69,10 @@
   box-shadow: 0 4px 12px rgba(18, 20, 23, 0.6);
 }
 .shadow-accent {
-  box-shadow: 0 4px 12px rgba(46, 196, 182, 0.3);
+  box-shadow: 0 4px 12px rgba(46, 196, 182, 0.5);
 }
 .shadow-warm {
-  box-shadow: 0 4px 12px rgba(255, 159, 28, 0.3);
+  box-shadow: 0 4px 12px rgba(255, 159, 28, 0.5);
 }
 .shadow-white {
   box-shadow: 0 4px 12px rgba(255, 255, 255, 0.7);

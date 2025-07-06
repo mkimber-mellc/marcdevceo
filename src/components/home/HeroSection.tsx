@@ -13,7 +13,7 @@ export default function HeroSection() {
           🔬 Powered by MELLC Labs — where AI, clarity, and code come to play.
         </BodyText>
 
-        <UILink href="/projects">
+        <UILink href="/">
           <Button bg={'bgaccent'} padding={'md'} pill>
             View Projects
           </Button>
