@@ -8,7 +8,7 @@ export default function IntroSection() {
       </Title>
 
       <Subtitle color="textprimary" align="center">
-        Engineer. Strategist. Systems Thinker.
+        Developer. Strategist. Systems Thinker.
       </Subtitle>
 
       <BodyText color="textprimary" align="center" className="max-w-3xl mx-auto">
