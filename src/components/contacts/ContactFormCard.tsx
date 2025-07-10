@@ -32,7 +32,7 @@ export default function ContactFormCard() {
           />
         </FlexContainer>
 
-        <Button bg="bg-blue-500" color="textaccent" padding="sm" pill hover="bold">
+        <Button type={'submit'} bg="bg-blue-500" color="textaccent" padding="sm" pill hover="bold">
           Send Message
         </Button>
       </Form>

@@ -3,6 +3,8 @@ import { Geist, Geist_Mono } from 'next/font/google';
 import './globals.css';
 import 'mellc-ui-kit/styles/index.css';
 import '../styles/project-colors.css';
+import { Footer, NavBar } from 'mellc-ui-kit';
+import { navLinks } from '@/data/navlinks';
 
 const geistSans = Geist({
   variable: '--font-geist-sans',
@@ -26,7 +28,28 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable}`}>{children}</body>
+      <body className={`${geistSans.variable} ${geistMono.variable}`}>
+        <NavBar
+          links={navLinks}
+          title={'MarcDevCEO'}
+          titleHref={'/'}
+          bg={'bgprimary'}
+          color={'textprimary'}
+          padding={'md'}
+          menuContainerProps={{ bg: 'bglight', padding: 'xl' }}
+          cardProps={{ bg: 'bgprimary' }}
+        />
+        {children}
+        <Footer
+          companyName="MarcDevCEO"
+          bg="bgprimary"
+          color={'textprimary'}
+          textAlign="center"
+          fontWeight="normal"
+          fontSize="xs"
+          padding="lg"
+        />
+      </body>
     </html>
   );
 }

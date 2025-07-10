@@ -72,11 +72,16 @@
   box-shadow: 0 4px 12px rgba(46, 196, 182, 0.5);
 }
 .shadow-warm {
-  box-shadow: 0 4px 12px rgba(255, 159, 28, 0.5);
+  box-shadow: 0 4px 12px rgba(255, 159, 28, 0.7);
 }
 .shadow-white {
-  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.7);
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.5);
 }
+
+.shadow-white-lg {
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.9);
+}
+
 
 /* === Hover: Backgrounds === */
 .hover\:bgprimary:hover {
@@ -156,3 +161,11 @@
   border-color: transparent;
 }
 
+.imageWrapper {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}

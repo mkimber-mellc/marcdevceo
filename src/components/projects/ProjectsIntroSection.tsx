@@ -2,7 +2,12 @@ import { BodyText, FlexContainer, Subtitle, Title } from 'mellc-ui-kit';
 
 export default function ProjectsIntroSection() {
   return (
-    <FlexContainer flexDirection={'col'} gap={6} padding={'xl'} className={'md:p-24 shadow-white'}>
+    <FlexContainer
+      flexDirection={'col'}
+      gap={6}
+      padding={'xl'}
+      className={'md:p-24 shadow-white-lg'}
+    >
       <FlexContainer flexDirection={'col'} gap={2}>
         <Title color={'text-white'}>Showcasing the Journey</Title>
         <Subtitle align={'center'} color={'text-white'} italic>

@@ -4,7 +4,7 @@ import ProjectsGrid from '@/components/projects/ProjectsGrid';
 
 export default function ProjectsPage() {
   return (
-    <MainContainer bg={'bgprimary'} padding={'none'}>
+    <MainContainer bg={'bgprimary'} padding={'none'} gap={12}>
       {/* Top Intro Section with title and emotional context */}
       <ProjectsIntroSection />
 

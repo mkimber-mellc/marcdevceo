@@ -19,7 +19,7 @@ export default function CTASection() {
         <span className={'italic font-bold'}>MELLC Labs </span>
         can bring it to life .
       </BodyText>
-      <UILink href="/contact">
+      <UILink href="/contact-me">
         <Button bg="bgaccent" padding="md" pill hover={'bold'} className={'hover:bgwarm'}>
           Start a Project
         </Button>
