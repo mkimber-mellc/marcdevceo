@@ -31,9 +31,9 @@ export default function ProjectsPreview() {
                 {project.title}
               </Subtitle>
               <BodyText color="textlight">{project.description}</BodyText>
-              <UILink href={project.link} color="textaccent" className={'hover:text-amber-300'}>
-                → View Case Study
-              </UILink>
+              {/*<UILink href={project.link} color="textaccent" className={'hover:text-amber-300'}>*/}
+              {/*  → View Case Study*/}
+              {/*</UILink>*/}
             </FlexContainer>
           </Card>
         ))}

@@ -8,7 +8,7 @@ import {
   GridContainer,
   Subtitle,
 } from 'mellc-ui-kit';
-import { projects } from '@/projects';
+import { projects } from '@/data/projects';
 import Image from 'next/image';
 
 export default function ProjectsGrid() {
@@ -30,8 +30,8 @@ export default function ProjectsGrid() {
                 <Image
                   src={project.image}
                   alt={project.title}
-                  objectFit={'cover'}
-                  layout={'fill'}
+                  style={{ objectFit: 'cover' }}
+                  fill
                 />
               </BlockContainer>
             </Center>

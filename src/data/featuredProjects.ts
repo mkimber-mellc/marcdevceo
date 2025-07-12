@@ -1,14 +1,13 @@
 export const featuredProjects = [
   {
-    title: 'BlessNotes',
+    title: 'Code.Coach.Culture',
     description:
-      'A spiritual journaling app combining mood check-ins, prayer, and music recommendations.',
-    link: '/projects/blessnotes',
+      'A purpose-driven blog platform combining leadership insights, technical growth, and cultural clarity',
+    link: '/projects',
   },
   {
-    title: 'SphereOS',
-    description:
-      'A custom CRM + PM system built for clarity and connection — featuring Circle and Flow modules.',
-    link: '/projects/sphereos',
+    title: 'MoEx Gifts',
+    description: 'MoEx Gifts is a modern e-commerce demo that celebrates meaningful gift giving',
+    link: '/projects',
   },
 ];

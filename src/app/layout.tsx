@@ -36,19 +36,12 @@ export default function RootLayout({
           bg={'bgprimary'}
           color={'textprimary'}
           padding={'md'}
+          navButtonClass={'text-white'}
           menuContainerProps={{ bg: 'bglight', padding: 'xl' }}
           cardProps={{ bg: 'bgprimary' }}
         />
         {children}
-        <Footer
-          companyName="MarcDevCEO"
-          bg="bgprimary"
-          color={'textprimary'}
-          textAlign="center"
-          fontWeight="normal"
-          fontSize="xs"
-          padding="lg"
-        />
+        <Footer bg={'bgprimary'} color={'textprimary'} />
       </body>
     </html>
   );
