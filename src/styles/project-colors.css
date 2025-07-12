@@ -1,0 +1,171 @@
+/* === Primary (Obsidian) === */
+.bgprimary {
+  background-color: #121417;
+}
+.textprimary {
+  color: #f4f4f4; /* Soft bone white */
+}
+.borderprimary {
+  border-color: #1f2328; /* Slightly lighter than bg */
+}
+
+/* === Brand Mid (Graphite Blue) === */
+.bgbrandmid {
+  background-color: #3d4c5e;
+}
+.textbrandmid {
+  color: #f4f4f4;
+}
+.borderbrandmid {
+  border-color: #5e7189;
+}
+
+/* === Accent (Aqua Mint) === */
+.bgaccent {
+  background-color: #2ec4b6;
+}
+.textaccent {
+  color: #ffffff;
+}
+.borderaccent {
+  border-color: #1a9a8f;
+}
+
+/* === Warm (Solar Gold) === */
+.bgwarm {
+  background-color: #ff9f1c;
+}
+.textwarm {
+  color: #5a3900;
+}
+.borderwarm {
+  border-color: #ffc56e;
+}
+
+/* === CTA (Strategic Pink-Red) === */
+.bgcta {
+  background-color: #ef476f;
+}
+.textcta {
+  color: #ffffff;
+}
+.bordercta {
+  border-color: #c62d51;
+}
+
+/* === Light (Neutral Fog) === */
+.bglight {
+  background-color: #f5f5f5;
+}
+.textlight {
+  color: #3d4c5e;
+}
+.borderlight {
+  border-color: #ccc;
+}
+
+/* === Shadows === */
+.shadow-primary {
+  box-shadow: 0 4px 12px rgba(18, 20, 23, 0.6);
+}
+.shadow-accent {
+  box-shadow: 0 4px 12px rgba(46, 196, 182, 0.5);
+}
+.shadow-warm {
+  box-shadow: 0 4px 12px rgba(255, 159, 28, 0.7);
+}
+.shadow-white {
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.5);
+}
+
+.shadow-white-lg {
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.9);
+}
+
+
+/* === Hover: Backgrounds === */
+.hover\:bgprimary:hover {
+  background-color: #121417;
+}
+.hover\:bgbrandmid:hover {
+  background-color: #3d4c5e;
+}
+.hover\:bgaccent:hover {
+  background-color: #2ec4b6;
+}
+.hover\:bgwarm:hover {
+  background-color: #ff9f1c;
+}
+.hover\:bgcta:hover {
+  background-color: #ef476f;
+}
+.hover\:bglight:hover {
+  background-color: #e5e5e5;
+}
+.hover\:bg-emerald-500:hover {
+  background-color: #10b981;
+}
+.hover\:bgtransparent:hover {
+  background-color: transparent;
+}
+
+/* === Hover: Text Colors === */
+.hover\:textprimary:hover {
+  color: #f4f4f4;
+}
+.hover\:textbrandmid:hover {
+  color: #f4f4f4;
+}
+.hover\:textaccent:hover {
+  color: #ffffff;
+}
+.hover\:textwarm:hover {
+  color: #5a3900;
+}
+.hover\:textcta:hover {
+  color: #ffffff;
+}
+.hover\:textlight:hover {
+  color: #3d4c5e;
+}
+.hover\:textwhite:hover {
+  color: #ffffff;
+}
+.hover\:texttransparent:hover {
+  color: transparent;
+}
+
+/* === Hover: Border Colors === */
+.hover\:borderprimary:hover {
+  border-color: #1f2328;
+}
+.hover\:borderbrandmid:hover {
+  border-color: #5e7189;
+}
+.hover\:borderaccent:hover {
+  border-color: #1a9a8f;
+}
+.hover\:borderwarm:hover {
+  border-color: #ffc56e;
+}
+.hover\:bordercta:hover {
+  border-color: #c62d51;
+}
+.hover\:borderlight:hover {
+  border-color: #ccc;
+}
+.hover\:border-emerald-500:hover {
+  border-color: #10b981;
+}
+.hover\:bordertransparent:hover {
+  border-color: transparent;
+}
+
+.imageWrapper {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}

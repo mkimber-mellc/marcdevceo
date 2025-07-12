@@ -1,0 +1,37 @@
+export const projects = [
+  {
+    title: 'MoviFind',
+    description:
+      'A Netflix-inspired movie finder app using the TMDB API to deliver genre-based recommendations.',
+    techStack: 'Next.js, TMBI API',
+    href: 'https://movifind.vercel.app',
+    github: 'https://github.com/marcdevceo/movifind',
+    image: '/movifind.png',
+  },
+  {
+    title: 'MoEx Gifts',
+    description: 'MoEx Gifts is a modern e-commerce demo that celebrates meaningful gift giving',
+    techStack: 'Next.js, Stripe Checkout, mellc-ui-kit (custom UI framework)',
+    href: 'https://moex-gifts.vercel.app',
+    github: 'https://github.com/marcdevceo/moExGifts',
+    image: '/moexgifts.png',
+  },
+  {
+    title: 'Code.Coach.Culture',
+    description:
+      'A purpose-driven blog platform combining leadership insights, technical growth, and cultural clarity',
+    techStack: 'Next.js, MDX',
+    href: 'https://code-coach-culture.vercel.app',
+    github: 'https://github.com/marcdevceo/code-coach-culture',
+    image: '/code-coach-culture.png',
+  },
+  {
+    title: 'MELLC NewsLetter',
+    description:
+      'A modern newspaper-style newsletter app to deliver authenticated, edition-based insights from MELLC Labs.',
+    techStack: 'Next.js, Clerk, mellc-ui-kit (custom UI framework).',
+    href: 'https://mellc-newsletter.vercel.app',
+    github: 'https://github.com/mkimber-mellc/mellc-newsletter',
+    image: '/moexgifts.png',
+  },
+];
