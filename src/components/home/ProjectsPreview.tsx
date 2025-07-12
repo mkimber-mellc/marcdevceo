@@ -4,7 +4,6 @@ import {
   GridContainer,
   Title,
   BodyText,
-  UILink,
   Subtitle,
   FlexContainer,
 } from 'mellc-ui-kit';
