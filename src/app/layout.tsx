@@ -3,7 +3,7 @@ import { Geist, Geist_Mono } from 'next/font/google';
 import 'mellc-ui-kit';
 import './globals.css';
 import '../styles/project-colors.css';
-import { Footer, NavBar } from 'mellc-ui-kit';
+import { Footer, NavBar } from '@/mellc-ui-kit';
 import { navLinks } from '@/data/navlinks';
 
 const geistSans = Geist({

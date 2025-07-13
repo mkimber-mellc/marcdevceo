@@ -1,4 +1,4 @@
-import { BodyText, Button, Card, FlexContainer, Subtitle, Title, UILink } from 'mellc-ui-kit';
+import { BodyText, Button, Card, FlexContainer, Subtitle, Title, UILink } from '@/mellc-ui-kit';
 
 export default function HeroSection() {
   return (

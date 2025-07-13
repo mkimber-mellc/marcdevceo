@@ -2,7 +2,7 @@ import React from 'react';
 import { bgColorClass, marginClass, paddingClass, textColorClass } from '../../theme';
 
 import { BaseContainerProps } from '../../components';
-import { BaseCardProps } from '@components/card/types-cards';
+import { BaseCardProps } from '../../components/card/types-cards';
 
 export type NavLinksProps = {
   href: string;

@@ -1,4 +1,4 @@
-import { GridContainer, MainContainer } from 'mellc-ui-kit';
+import { GridContainer, MainContainer } from '@/mellc-ui-kit';
 import ContactInfoCard from '@/components/contacts/ContactInfoCard';
 import ContactFormCard from '@/components/contacts/ContactFormCard';
 

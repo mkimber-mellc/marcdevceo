@@ -1,4 +1,4 @@
-import { FlexContainer, Title, BodyText, Button, UILink } from 'mellc-ui-kit';
+import { FlexContainer, Title, BodyText, Button, UILink } from '@/mellc-ui-kit';
 
 export default function CTASection() {
   return (

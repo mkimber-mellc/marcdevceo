@@ -20,8 +20,8 @@
     ],
     "paths": {
       "@/*": ["./src/*"],
-      "@mellc-ui-kit/*": ["./mellc-ui-kit/*"],
-      "@components/*": ["./mellc-ui-kit/components/*"]
+      "@/mellc-ui-kit": ["./mellc-ui-kit/index.ts"],
+      "@/mellc-ui-kit/*": ["./mellc-ui-kit/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],

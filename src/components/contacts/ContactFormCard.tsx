@@ -1,4 +1,4 @@
-import { Button, Card, FlexContainer, Form, Input, TextAreaInput } from 'mellc-ui-kit';
+import { Button, Card, FlexContainer, Form, Input, TextAreaInput } from '@/mellc-ui-kit';
 
 export default function ContactFormCard() {
   return (

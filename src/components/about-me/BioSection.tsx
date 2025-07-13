@@ -1,4 +1,4 @@
-import { FlexContainer, Title, Subtitle, BodyText, Card } from 'mellc-ui-kit';
+import { FlexContainer, Title, Subtitle, BodyText, Card } from '@/mellc-ui-kit';
 
 export default function BioSection() {
   return (

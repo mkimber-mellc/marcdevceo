@@ -1,4 +1,4 @@
-import { Title, BodyText, FlexContainer, Card } from 'mellc-ui-kit';
+import { Title, BodyText, FlexContainer, Card } from '@/mellc-ui-kit';
 
 export default function MellcVisionSection() {
   return (

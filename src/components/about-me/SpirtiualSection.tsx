@@ -1,4 +1,4 @@
-import { FlexContainer, Title, BodyText } from 'mellc-ui-kit';
+import { FlexContainer, Title, BodyText } from '@/mellc-ui-kit';
 
 export default function SpiritualSection() {
   return (

@@ -1,4 +1,4 @@
-import { BodyText, CaptionText, FlexContainer, Title, UILink } from 'mellc-ui-kit';
+import { BodyText, CaptionText, FlexContainer, Title, UILink } from '@/mellc-ui-kit';
 
 export default function ContactInfoCard() {
   return (

@@ -1,4 +1,4 @@
-import { MainContainer } from 'mellc-ui-kit';
+import { MainContainer } from '@/mellc-ui-kit';
 import ProjectsIntroSection from '@/components/projects/ProjectsIntroSection';
 import ProjectsGrid from '@/components/projects/ProjectsGrid';
 

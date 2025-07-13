@@ -1,4 +1,4 @@
-import { Title, BodyText, Card, GridContainer, Subtitle, FlexContainer } from 'mellc-ui-kit';
+import { Title, BodyText, Card, GridContainer, Subtitle, FlexContainer } from '@/mellc-ui-kit';
 import { beliefs } from '@/data/beliefs';
 
 export default function BeliefsSection() {

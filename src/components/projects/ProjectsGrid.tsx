@@ -7,7 +7,7 @@ import {
   FlexContainer,
   GridContainer,
   Subtitle,
-} from 'mellc-ui-kit';
+} from '@/mellc-ui-kit';
 import { projects } from '@/data/projects';
 import Image from 'next/image';
 

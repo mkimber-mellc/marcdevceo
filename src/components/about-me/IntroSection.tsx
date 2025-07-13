@@ -1,4 +1,4 @@
-import { FlexContainer, Title, Subtitle, BodyText } from 'mellc-ui-kit';
+import { FlexContainer, Title, Subtitle, BodyText } from '@/mellc-ui-kit';
 
 export default function IntroSection() {
   return (

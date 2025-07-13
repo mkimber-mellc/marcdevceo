@@ -1,4 +1,4 @@
-import { FlexContainer, MainContainer } from 'mellc-ui-kit';
+import { FlexContainer, MainContainer } from '@/mellc-ui-kit';
 import HeroSection from '@/components/home/HeroSection';
 import ProjectsPreview from '@/components/home/ProjectsPreview';
 import CTASection from '@/components/home/CTASection';

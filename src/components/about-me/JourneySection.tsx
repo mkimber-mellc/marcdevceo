@@ -1,4 +1,4 @@
-import { Title, Subtitle, BodyText, Card, GridContainer, FlexContainer } from 'mellc-ui-kit';
+import { Title, Subtitle, BodyText, Card, GridContainer, FlexContainer } from '@/mellc-ui-kit';
 
 import { journey } from '@/data/journey';
 

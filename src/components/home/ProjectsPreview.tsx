@@ -6,7 +6,7 @@ import {
   BodyText,
   Subtitle,
   FlexContainer,
-} from 'mellc-ui-kit';
+} from '@/mellc-ui-kit';
 import { featuredProjects } from '@/data/featuredProjects';
 
 export default function ProjectsPreview() {
