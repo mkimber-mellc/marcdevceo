@@ -26,12 +26,12 @@ export const projects = [
     image: '/code-coach-culture.png',
   },
   {
-    title: 'MELLC NewsLetter',
+    title: 'the MELLC Thought Leader',
     description:
       'A modern newspaper-style newsletter app to deliver authenticated, edition-based insights from MELLC Labs.',
     techStack: 'Next.js, Clerk, mellc-ui-kit (custom UI framework).',
-    href: 'https://mellc-newsletter.vercel.app',
-    github: 'https://github.com/mkimber-mellc/mellc-newsletter',
-    image: '/moexgifts.png',
+    href: 'https://mellc-thought-leader.vercel.app',
+    github: 'https://github.com/mkimber-mellc/mellc-thought-leader',
+    image: '/mellc-thought-leader.png',
   },
 ];
