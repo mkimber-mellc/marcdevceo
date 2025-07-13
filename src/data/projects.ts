@@ -12,7 +12,7 @@ export const projects = [
     title: 'MoEx Gifts',
     description: 'MoEx Gifts is a modern e-commerce demo that celebrates meaningful gift giving',
     techStack: 'Next.js, Stripe Checkout, mellc-ui-kit (custom UI framework)',
-    href: 'https://moex-gifts.vercel.app',
+    href: 'https://moexgifts.vercel.app',
     github: 'https://github.com/marcdevceo/moExGifts',
     image: '/moexgifts.png',
   },
