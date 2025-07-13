@@ -17,7 +17,8 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: 'MarcDevCEO Portfolio',
-  description: 'My portfolio web development',
+  description:
+    'Explore the digital portfolio of Marcus Kimber — developer, strategist, and CEO of MELLC. Built with custom systems, emotional clarity, and soul-infused design.',
 };
 
 export default function RootLayout({
